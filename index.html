@@ -18,29 +18,31 @@
         <body>
             <header id="header" class="fixed-top">
                 <div class="container d-flex">
-                    <div class="logo mr-auto">
-                        <h1 class="text-light"><a href="index.html"><span>Brandname</span></a></h1>
+                    <div class="navbar-brand logo mr-auto">
+                        <h1 class=" text-light"><a href="index.html"><span>Brandname</span></a></h1>
                       </div>
-                        <nav class="nav d-none d-lg-block">
+                        <nav class="navbar nav-menu d-none d-lg-block">
                             <ul>
                                 <li class="active"><a href="index.html">Home</a>
-                                    <li class="options"><a href="">More</a>
+                                    <li class="options nav-item"><a href="" class="nav-link">More</a>
                                         <ul>
-                                            <li><a href="./about">About Us >></a></li>
-                                            <li><a href="./team">Team</a></li>
-                                            <li><a href="./testimonials">Testimonials</a></li>
-                                            <li class="options"><a href="#">Deep Drop Down</a>
-                                                <ul>
-                                                    <li><a href="#">Deep Drop Down 1</a></li>
-                                                    <li><a href="#">Deep Drop Down 2</a></li>
-                                                    <li><a href="#">Deep Drop Down 3</a></li>
-                                                    <li><a href="#">Deep Drop Down 4</a></li>
-                                                    <li><a href="#">Deep Drop Down 5</a></li>
-                                                </ul>
-                                            </li>
+                                            <li class="nav-item"><a href="./about" class="nav-link">About Us >></a></li>
+                                            <li class="nav-item"><a href="./team" class="nav-link">Team</a></li>
+                                            <li class="nav-item"><a href="./testimonials" class="nav-link">Testimonials</a></li>
+                                              <li class="options nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Deep Drop Down</a>
+
+                                                    <ul class="dropdown-menu" >
+                                                        <li class="nav-item"><a href="#" class="nav-link dropdown-item">Deep Drop Down 1</a></li>
+                                                        <li class="nav-item "><a href="#" class="nav-link dropdown-item">Deep Drop Down 2</a></li>
+                                                        <li class="nav-item"><a href="#" class="nav-link dropdown-item">Deep Drop Down 3</a></li>
+                                                        <li class="nav-item"><a href="#" class="nav-link dropdown-item">Deep Drop Down 4</a></li>
+                                                        <li class="nav-item "><a href="#" class="nav-link dropdown-item">Deep Drop Down 5</a></li>
+                                                    </ul>
+
+                                              </li>
                                         </ul>
                                     </li>
-                                    <li><a href="#servies">Services</a></li>
+                                    <li><a href="#services">Services</a></li>
                                     <li><a href="#portfolio">Portfolio</a></li>
                                     <li><a href="#pricing">Pricing</a></li>
                                     <li><a href="#contact">Contact</a></li>
